@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+@media (max-width: 767px) {
+    .main-bg-container {
+        background-color: #95b2ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg-container {
+        background-color: #ffffff;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .header p {
+        font-size: 30px;
+    }
+
+    .heading {
+        font-family: "Roboto";
+        font-size: 60px;
+        padding-left: 20px;
+        font-weight: bold;
+    }
+
+    .title {
+        color: white;
+        font-size: 40px;
+        padding: 20px;
+        margin-right: 90px;
+    }
+
+    button {
+        color: white;
+        width: 100px;
+        margin: 20px;
+        background-color: transparent;
+        border: solid 1px;
+    }
+
+    .marketing {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-sm-bg.png");
+        background-size: cover;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    .coffee {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-coffee-bg.png");
+        background-size: cover;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    .fruits {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-fruits-bg.png");
+        background-size: cover;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    .laptop {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-sm-bg.png");
+        background-size: cover;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    .nature {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-nature-bg.png");
+        background-size: cover;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    .interior {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-interior-bg.png");
+        background-size: cover;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-bg-container {
+        background-color: #95b2ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg-container {
+        background-color: #ffffff;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        flex-grow: 1;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .header p {
+        font-size: 30px;
+    }
+
+    .heading {
+        font-family: "Roboto";
+        font-size: 60px;
+        padding-left: 20px;
+        font-weight: bold;
+    }
+
+    .title {
+        color: white;
+        font-size: 40px;
+        padding: 20px;
+        margin-right: 90px;
+    }
+
+    button {
+        color: white;
+        width: 100px;
+        margin: 20px;
+        background-color: transparent;
+        border: solid 1px;
+    }
+
+    .marketing {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-lg-bg.png");
+        background-size: cover;
+        height: 350px;
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px;
+        align-self: stretch;
+    }
+
+    .coffee {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-coffee-bg.png");
+        background-size: cover;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px;
+        width: 375px;
+        flex-grow: 0;
+    }
+
+    .fruits {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-fruits-bg.png");
+        background-size: cover;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 375px;
+        margin: 20px;
+    }
+
+    .laptop {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-lg-bg.png");
+        background-size: cover;
+        height: 350px;
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    .nature {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-nature-bg.png");
+        background-size: cover;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    .interior {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-interior-bg.png");
+        background-size: cover;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        justify-content: space-between;
+        margin: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main-bg-container {
+        background-color: #95b2ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg-container {
+        background-color: #ffffff;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        flex-grow: 1;
+        display: flex;
+        align-items: flex-start;
+        width:90vw;
+    }
+
+
+
+    .header {
+        font-size: 10000px;
+        text-align:left;
+    }
+
+    .heading {
+        font-family: "Roboto";
+        font-size: 60px;
+        padding-left: 20px;
+        font-weight: bold;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+
+    .title {
+        color: white;
+        font-size: 40px;
+        padding: 20px;
+        margin-right: 90px;
+    }
+
+    button {
+        color: white;
+        width: 100px;
+        margin: 20px;
+        background-color: transparent;
+        border: solid 1px;
+    }
+
+    .marketing {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-lg-bg.png");
+        background-size: cover;
+        height: 350px;
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px;
+        order: 0;
+    }
+
+    .coffee {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-coffee-bg.png");
+        background-size: cover;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px;
+        width: 375px;
+        order: 1;
+    }
+
+    .fruits {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-fruits-bg.png");
+        background-size: cover;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 375px;
+        margin: 20px;
+        order: 2;
+    }
+
+    .laptop {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-lg-bg.png");
+        background-size: cover;
+        height: 350px;
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px;
+        order: 5;
+    }
+
+    .nature {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-nature-bg.png");
+        background-size: cover;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        justify-content: space-between;
+        margin: 20px;
+        order: 3;
+    }
+
+    .interior {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-interior-bg.png");
+        background-size: cover;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        justify-content: space-between;
+        margin: 20px;
+        order: 4;
+    }
+}
